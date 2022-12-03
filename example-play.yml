@@ -1,6 +1,7 @@
 ---
 - name: Example
-  hosts: example
-  remote_user: "{{ remote_user }}"
+  hosts: localhost
+  connection: local
+  
   roles:
     - example-role
